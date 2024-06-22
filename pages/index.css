@@ -1,0 +1,40 @@
+.body {
+  font-family: "Noto serif", "Times New Roman", Times, serif;
+}
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* .header {
+
+}
+
+.nav_links {
+}
+
+.header_icon {
+}
+
+.main {
+}
+
+.main_section_recipes {
+}
+
+.main_section_reservations {
+}
+
+.main_section_menu {
+}
+
+.about_section_reservations {
+}
+
+.footer {
+} */
