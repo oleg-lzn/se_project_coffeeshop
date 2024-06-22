@@ -7,9 +7,9 @@
     <meta name="description" content="Oleg Coffee shop's webpage with a form" />
     <meta name="keywords" content="coffee, shop, order coffee, bakery" />
     <title>Oleg's Coffee Shop</title>
-    <link rel="stylesheet" href="vendor/normalize.css" />
-    <link rel="shortcut icon" href="../favicon.ico" />
-    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,26 +18,31 @@
     />
   </head>
 
-  <div class="page">
-    <body>
+  <body>
+    <div class="page">
       <header class="header">
-        <img class="header_icon" href="../images/logo_coffeeshop_dark.svg" />
-        <nav class="nav_links">
-          <ul class="nav_links_list">
-            <li class="list_item">Recipes</li>
-            <li class="list_item">Book a table</li>
-            <li class="list_item">Menu</li>
-            <li class="list_item">Contacts</li>
+        <nav class="nav">
+          <img
+            class="header_header_icon"
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Coffee-shop logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li class="nav__link">Recipes</li>
+            <li class="nav__link">Book a table</li>
+            <li class="nav__link">Menu</li>
+            <li class="nav__link">Contacts</li>
           </ul>
         </nav>
       </header>
-      <main class="main">
+      <main class="content">
         <section class="main_section_recipes">Recipes block</section>
         <section class="main_section_reservations">Reservations block</section>
         <section class="main_section_menu">Menu block</section>
         <section class="about_section_reservations">About block</section>
       </main>
       <footer class="footer">Here will be footer</footer>
-    </body>
-  </div>
+    </div>
+  </body>
 </html>
