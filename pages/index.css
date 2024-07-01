@@ -175,7 +175,7 @@
   padding: 0;
 }
 
-.recipes__videos_video-caption {
+.recipes_videos_video-caption {
   display: flex;
   justify-content: space-between;
   color: #fff;
@@ -187,7 +187,7 @@
   margin-top: 24px;
 }
 
-.recipes__videos_video-caption-text {
+.recipes_videos_video-caption-text {
   margin: 0;
   padding: 0;
 }
