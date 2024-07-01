@@ -17,53 +17,55 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
     <div class="page">
       <header class="header">
-        <nav class="nav">
+        <div class="header__wrapper">
+          <nav class="nav">
+            <img
+              class="nav__logo"
+              src="./images/logo_coffeeshop_dark.svg"
+              alt="Coffee-shop logo"
+            />
+            <ul class="nav__links">
+              <li>
+                <a class="nav__link" href="#recipes">Recipes</a>
+              </li>
+              <li class="nav__link">Book a table</li>
+              <li class="nav__link">Menu</li>
+              <li class="nav__link">Contacts</li>
+            </ul>
+          </nav>
+          <h1 class="header__title">
+            <span class="accent"> Specialty coffee</span> <br />
+            in the Triple Peaks Library
+          </h1>
+          <h2 class="header__description">
+            Welcome to our study zone! We've got the coffee to energize you and
+            the cozy vibes to help you get creative.
+          </h2>
           <img
-            class="nav__logo"
-            src="./images/logo_coffeeshop_dark.svg"
-            alt="Coffee-shop logo"
+            class="header__image"
+            src="images/inside_coffee_shop.png"
+            alt="inside coffee shop image"
           />
-          <ul class="nav__links">
-            <li>
-              <a class="nav__link" href="#recipes">Recipes</a>
-            </li>
-            <li class="nav__link">Book a table</li>
-            <li class="nav__link">Menu</li>
-            <li class="nav__link">Contacts</li>
-          </ul>
-        </nav>
-        <h1 class="header__title">
-          <span class="accent"> Specialty coffee</span> <br />
-          in the Triple Peaks Library
-        </h1>
-        <h2 class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you and
-          the cozy vibes to help you get creative.
-        </h2>
-        <img
-          class="header__image"
-          src="images/inside_coffee_shop.png"
-          alt="inside coffee shop image"
-        />;
-        <div class="header__footer">
-          <ul class="header__footer_list">
-            <li class="header__footer header__footer_list-item">Hours:</li>
-            <li class="header__footer header__footer_list-item">
-              Monday – Friday (10:00 – 19:00)
-            </li>
-            <li class="header__footer header__footer_list-item">
-              Saturday – Sunday (11:00 – 18:00)
-            </li>
-          </ul>
-          <p class="header__footer header__footer_paragraph">
-            200 Success Avenue, The Town of Triple Peaks
-          </p>
+          <div class="header__footer">
+            <ul class="header__footer_list">
+              <li class="header__footer header__footer_list-item">Hours:</li>
+              <li class="header__footer header__footer_list-item">
+                Monday – Friday (10:00 – 19:00)
+              </li>
+              <li class="header__footer header__footer_list-item">
+                Saturday – Sunday (11:00 – 18:00)
+              </li>
+            </ul>
+            <p class="header__footer header__footer_paragraph">
+              200 Success Avenue, The Town of Triple Peaks
+            </p>
+          </div>
         </div>
       </header>
+
       <main class="content">
         <section class="recipes" id="recipes">
           <h3 class="recipes__title">Recipes</h3>
@@ -110,6 +112,6 @@
         <section class="contacts" id="contacts"></section>
       </main>
     </div>
+    <footer class="footer"></footer>
   </body>
-  <footer class="footer"></footer>
 </html>
