@@ -102,3 +102,16 @@
   color: #000;
   text-decoration: none;
 }
+
+@keyframes navcolorChange {
+  0% {
+    color: #000;
+  }
+  100% {
+    color: #2f80ed;
+  }
+}
+
+.nav__link:hover {
+  animation: navcolorChange 0.3s forwards;
+}
