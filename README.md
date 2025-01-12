@@ -4,6 +4,8 @@
 
 Oleg's Coffee Shop Webpage
 
+![Project image](./public/coffee_shop.jpg)
+
 ## Project Description
 
 Oleg's Coffee Shop Webpage is a simple, elegant site designed to showcase a local coffee shop's offerings and provide an easy way for customers to book a table. The webpage includes several sections such as recipes, table reservations, menu, and contact information.
